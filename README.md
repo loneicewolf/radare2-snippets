@@ -2,6 +2,12 @@
 my custom made Radare2 scripts/snippets/commands.
 
 
+:warning: risk of falling objects, since this is under construction! :warning:
+
+
+
+
+
 
 ### Padding, shifts, rotates and Cryptography
 
@@ -13,25 +19,14 @@ rasm2 -C -a x64 -b 64 -w "shl"
 rasm2 -C -a x64 -b 64 -w "shr"
 
 
-
-
-
 ```
 
 
-
-
-
-## gcc, obj*, .. 
+#### gcc, obj*, .. 
 
 ```
 gcc -c -g03 c1.c
 objdump c1.o -d -Mintel
-
-
-
-
-
 
 
 
@@ -142,26 +137,3 @@ rasm2 -C -a x64 -b 64 "mov rbp,rsp"
 
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
